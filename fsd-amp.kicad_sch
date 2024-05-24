@@ -2340,7 +2340,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://cdn-reichelt.de/documents/datenblatt/C100/AKL101%23RIA.pdf"
 			(at 139.7 173.99 0)
 			(effects
 				(font
@@ -2350,6 +2350,24 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 139.7 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VLNK" "https://www.reichelt.de/anschlussklemme-6-pol-2-mm-rm-5-08-akl-101-06-p36609.html?search=AKL+101-06"
+			(at 139.7 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VPN" "AKL 101-06"
 			(at 139.7 173.99 0)
 			(effects
 				(font
@@ -2454,15 +2472,15 @@
 	(symbol
 		(lib_id "Device:Q_PNP_BCE")
 		(at 170.18 106.68 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "176c909e-469b-48bd-9eeb-1deb4082a060")
 		(property "Reference" "Q1003"
-			(at 175.26 105.4099 0)
+			(at 175.26 105.664 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2470,8 +2488,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Q_PNP_BCE"
-			(at 175.26 107.9499 0)
+		(property "Value" "FZT 753 ZET"
+			(at 175.26 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2480,7 +2498,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 175.26 104.14 0)
+			(at 175.26 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2488,7 +2506,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://cdn-reichelt.de/documents/datenblatt/A100/FZT753.pdf"
 			(at 170.18 106.68 0)
 			(effects
 				(font
@@ -2498,6 +2516,24 @@
 			)
 		)
 		(property "Description" "PNP transistor, base/collector/emitter"
+			(at 170.18 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VLNK" "https://www.reichelt.de/bipolartransistor-pnp-100-v-2-a-2-w-sot-223-fzt-753-zet-p216608.html?&trstct=pol_5&nbc=1"
+			(at 170.18 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VPN" "FZT 753 ZET"
 			(at 170.18 106.68 0)
 			(effects
 				(font
@@ -2809,7 +2845,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Q_NPN_BCE"
+		(property "Value" "FZT 653 ZET"
 			(at 175.26 82.5499 0)
 			(effects
 				(font
@@ -2827,7 +2863,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://cdn-reichelt.de/documents/datenblatt/A100/FZT653.pdf"
 			(at 170.18 81.28 0)
 			(effects
 				(font
@@ -2837,6 +2873,24 @@
 			)
 		)
 		(property "Description" "NPN transistor, base/collector/emitter"
+			(at 170.18 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VLNK" "https://www.reichelt.de/bipolartransistor-npn-100-v-2-a-2-w-sot-223-fzt-653-zet-p219138.html?&trstct=pos_0&nbc=1"
+			(at 170.18 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VPN" "FZT 653 ZET"
 			(at 170.18 81.28 0)
 			(effects
 				(font
@@ -2919,7 +2973,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "7b9c01f1-8b5c-4136-a325-cd6cc2a49361")
+			(uuid "7b9c01f1-8b5c-4136-a325-cd6cc2a49362")
 		)
 		(instances
 			(project "fsd-amp"
@@ -2949,7 +3003,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "150"
 			(at 149.86 73.6599 0)
 			(effects
 				(font
@@ -2967,7 +3021,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://cdn-reichelt.de/documents/datenblatt/B400/METALL%23YAG.pdf"
 			(at 147.32 72.39 0)
 			(effects
 				(font
@@ -2977,6 +3031,24 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 147.32 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VLNK" "https://www.reichelt.de/widerstand-metallschicht-150-ohm-0207-0-6-w-1--metall-150-p11527.html"
+			(at 147.32 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VPN" "METALL 150"
 			(at 147.32 72.39 0)
 			(effects
 				(font
@@ -3018,7 +3090,7 @@
 				)
 			)
 		)
-		(property "Value" "C_Polarized"
+		(property "Value" "470u"
 			(at 188.341 88.9 90)
 			(effects
 				(font
@@ -3035,7 +3107,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.reichelt.de/elko-radial-470-f-16-v-rm-5-0-85-c-2000h-20--rad-470-16-p15148.html?&trstct=pol_0&nbc=1"
 			(at 189.23 93.98 0)
 			(effects
 				(font
@@ -3045,6 +3117,24 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
+			(at 189.23 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VLNK" "https://www.reichelt.de/elko-radial-470-f-16-v-rm-5-0-85-c-2000h-20--rad-470-16-p15148.html?&trstct=pol_0&nbc=1"
+			(at 189.23 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VPN" "RAD 470/16"
 			(at 189.23 93.98 0)
 			(effects
 				(font
@@ -3087,7 +3177,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Q_NPN_BCE"
+		(property "Value" "FZT 653 ZET"
 			(at 149.86 120.6499 0)
 			(effects
 				(font
@@ -3105,7 +3195,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://cdn-reichelt.de/documents/datenblatt/A100/FZT653.pdf"
 			(at 144.78 119.38 0)
 			(effects
 				(font
@@ -3123,14 +3213,32 @@
 				(hide yes)
 			)
 		)
+		(property "VLNK" "https://www.reichelt.de/bipolartransistor-npn-100-v-2-a-2-w-sot-223-fzt-653-zet-p219138.html?&trstct=pos_0&nbc=1"
+			(at 144.78 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VPN" "FZT 653 ZET"
+			(at 144.78 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
-			(uuid "abef247b-c6b8-4492-b824-98005e35a6ea")
+			(uuid "abef247b-c6b8-4492-b824-98005e35a6eb")
 		)
 		(pin "2"
-			(uuid "1dc0493c-f1a6-43f1-80a4-50c3c468b26c")
+			(uuid "1dc0493c-f1a6-43f1-80a4-50c3c468b26d")
 		)
 		(pin "1"
-			(uuid "5436f56b-6521-40b9-a2d6-a147d17af1ac")
+			(uuid "5436f56b-6521-40b9-a2d6-a147d17af1ad")
 		)
 		(instances
 			(project "fsd-amp"
@@ -3160,7 +3268,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "1N4001"
 			(at 149.86 88.8999 90)
 			(effects
 				(font
@@ -3178,7 +3286,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://cdn-reichelt.de/documents/datenblatt/A400/1N4001-1N4007_LUNSURE.pdf"
 			(at 147.32 87.63 0)
 			(effects
 				(font
@@ -3206,6 +3314,24 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 147.32 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VLNK" "https://www.reichelt.de/gleichrichterdiode-50-v-1-a-do-41-1n-4001-p1723.html?&trstct=pos_0&nbc=1"
+			(at 147.32 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VPN" "1N 4001"
 			(at 147.32 87.63 0)
 			(effects
 				(font
@@ -3351,7 +3477,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "7b9c01f1-8b5c-4136-a325-cd6cc2a49361")
+			(uuid "7b9c01f1-8b5c-4136-a325-cd6cc2a49363")
 		)
 		(instances
 			(project "fsd-amp"
@@ -3397,7 +3523,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://cdn-reichelt.de/documents/datenblatt/C160/KB3SPRS.pdf"
 			(at 88.9 166.37 0)
 			(effects
 				(font
@@ -3407,6 +3533,33 @@
 			)
 		)
 		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Grounded Sleeve, Switched Pole (Normalling)"
+			(at 88.9 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 88.9 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VPN" "EBS 35"
+			(at 88.9 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VLNK" "https://www.reichelt.de/klinkeneinbaubuchse-3-5-mm-stereo-ebs-35-p7301.html?&trstct=pol_4&nbc=1"
 			(at 88.9 171.45 0)
 			(effects
 				(font
@@ -3458,7 +3611,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "47k"
 			(at 137.16 114.2999 0)
 			(effects
 				(font
@@ -3476,7 +3629,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://cdn-reichelt.de/documents/datenblatt/B400/METALL%23YAG.pdf"
 			(at 134.62 113.03 0)
 			(effects
 				(font
@@ -3494,11 +3647,29 @@
 				(hide yes)
 			)
 		)
+		(property "VLNK" "https://www.reichelt.de/widerstand-metallschicht-47-0-kohm-0207-0-6-w-1--metall-47-0k-p11823.html?&trstct=pol_0&nbc=1"
+			(at 134.62 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VPN" "METALL 47,0K"
+			(at 134.62 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
-			(uuid "e034730d-714f-4d28-9d66-c9e7e6106149")
+			(uuid "e034730d-714f-4d28-9d66-c9e7e610614a")
 		)
 		(pin "2"
-			(uuid "dc0c4ca9-df85-4518-beb4-1f07082c9ed1")
+			(uuid "dc0c4ca9-df85-4518-beb4-1f07082c9ed2")
 		)
 		(instances
 			(project "fsd-amp"
@@ -3527,7 +3698,7 @@
 				)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "10u"
 			(at 125.73 114.3 90)
 			(effects
 				(font
@@ -3544,7 +3715,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://cdn-reichelt.de/documents/datenblatt/B300/WIMA_MKS_2.pdf"
 			(at 125.73 119.38 0)
 			(effects
 				(font
@@ -3554,6 +3725,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 125.73 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VLNK" "https://www.reichelt.de/mks2-pet-kondensator-10-f-5-50-vdc-rm-5-mks2-50-10--p172683.html?&trstct=pos_11&nbc=1"
+			(at 125.73 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VPN" "MKS2-50 10µ"
 			(at 125.73 119.38 0)
 			(effects
 				(font
@@ -3596,7 +3785,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "1N4001"
 			(at 149.86 101.5999 90)
 			(effects
 				(font
@@ -3614,7 +3803,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://cdn-reichelt.de/documents/datenblatt/A400/1N4001-1N4007_LUNSURE.pdf"
 			(at 147.32 100.33 0)
 			(effects
 				(font
@@ -3650,11 +3839,29 @@
 				(hide yes)
 			)
 		)
+		(property "VLNK" "https://www.reichelt.de/gleichrichterdiode-50-v-1-a-do-41-1n-4001-p1723.html?&trstct=pos_0&nbc=1"
+			(at 147.32 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VPN" "1N 4001"
+			(at 147.32 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
-			(uuid "e6296d80-5fd4-4daa-a59a-9d15261d5f1e")
+			(uuid "e6296d80-5fd4-4daa-a59a-9d15261d5f1f")
 		)
 		(pin "1"
-			(uuid "8223acad-a8eb-415a-a20b-666dd1ba7897")
+			(uuid "8223acad-a8eb-415a-a20b-666dd1ba7898")
 		)
 		(instances
 			(project "fsd-amp"
@@ -3684,7 +3891,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Polarized"
+		(property "Value" "470u"
 			(at 125.73 72.7709 0)
 			(effects
 				(font
@@ -3702,7 +3909,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.reichelt.de/elko-radial-470-f-16-v-rm-5-0-85-c-2000h-20--rad-470-16-p15148.html?&trstct=pol_0&nbc=1"
 			(at 121.92 72.39 0)
 			(effects
 				(font
@@ -3712,6 +3919,24 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
+			(at 121.92 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VLNK" "https://www.reichelt.de/elko-radial-470-f-16-v-rm-5-0-85-c-2000h-20--rad-470-16-p15148.html?&trstct=pol_0&nbc=1"
+			(at 121.92 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VPN" "RAD 470/16"
 			(at 121.92 72.39 0)
 			(effects
 				(font
