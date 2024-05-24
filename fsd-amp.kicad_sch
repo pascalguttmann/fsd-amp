@@ -2681,7 +2681,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type101_RT01606HBWC_1x06_P5.08mm_Horizontal"
 			(at 139.7 171.45 0)
 			(effects
 				(font
@@ -2913,7 +2913,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
 			(at 175.26 109.22 0)
 			(effects
 				(font
@@ -3206,7 +3206,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical"
 			(at 114.3 119.38 0)
 			(effects
 				(font
@@ -3215,7 +3215,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cdn-reichelt.de/documents/datenblatt/B300/3386_ENG_TDS.pdf"
+		(property "Datasheet" "https://www.reichelt.de/praezisionspotentiometer-25-gaenge-stehend-20-kohm-64w-20k-p2705.html?&trstct=pol_2&nbc=1"
 			(at 114.3 119.38 0)
 			(effects
 				(font
@@ -3233,7 +3233,7 @@
 				(hide yes)
 			)
 		)
-		(property "VLNK" "https://www.reichelt.de/praezisionspotentiometer-trimmer-liegend-20-kohm-9-5-mm-76-10-20k-p3495.html?&trstct=pos_0&nbc=1"
+		(property "VLNK" "https://www.reichelt.de/praezisionspotentiometer-25-gaenge-stehend-20-kohm-64w-20k-p2705.html?&trstct=pol_2&nbc=1"
 			(at 114.3 119.38 0)
 			(effects
 				(font
@@ -3242,7 +3242,7 @@
 				(hide yes)
 			)
 		)
-		(property "VPN" "76-10 20K"
+		(property "VPN" "64W-20K"
 			(at 114.3 119.38 0)
 			(effects
 				(font
@@ -3363,7 +3363,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
 			(at 175.26 78.74 0)
 			(effects
 				(font
@@ -3522,7 +3522,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 145.542 72.39 90)
 			(effects
 				(font
@@ -3608,7 +3608,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
 			(at 193.04 93.0148 0)
 			(effects
 				(font
@@ -3696,7 +3696,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
 			(at 149.86 116.84 0)
 			(effects
 				(font
@@ -3787,7 +3787,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
 			(at 147.32 87.63 0)
 			(effects
 				(font
@@ -4025,7 +4025,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Audio:Jack_3.5mm_Ledino_KB3SPRS_Horizontal"
 			(at 88.9 166.37 0)
 			(effects
 				(font
@@ -4131,7 +4131,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 132.842 113.03 90)
 			(effects
 				(font
@@ -4217,7 +4217,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Rect_L7.2mm_W11.0mm_P5.00mm_FKS2_FKP2_MKS2_MKP2"
 			(at 129.54 118.4148 0)
 			(effects
 				(font
@@ -4305,7 +4305,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
 			(at 147.32 100.33 0)
 			(effects
 				(font
@@ -4411,7 +4411,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
 			(at 122.8852 76.2 0)
 			(effects
 				(font
