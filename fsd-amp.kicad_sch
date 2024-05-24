@@ -1,5 +1,18 @@
-(kicad_sch (version 20231120) (generator "eeschema") (generator_version "8.0")
-  (paper "A4")
-  (lib_symbols)
-  (symbol_instances)
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "c6324701-a04d-49c0-9990-add1f54dd7f2")
+	(paper "A4")
+	(title_block
+		(title "FSD-Amp")
+		(date "2024-05-24")
+		(rev "1.0.0")
+	)
+	(lib_symbols)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
 )
