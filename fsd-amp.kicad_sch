@@ -1597,6 +1597,167 @@
 				)
 			)
 		)
+		(symbol "Device:R_Potentiometer"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "RV"
+				(at -4.445 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R_Potentiometer"
+				(at -2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Potentiometer"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "resistor variable"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Potentiometer*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Potentiometer_0_1"
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 1.524 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.143 0) (xy 2.286 0.508) (xy 2.286 -0.508) (xy 1.143 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 1.016 2.54)
+					(end -1.016 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Potentiometer_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:+9V"
 			(power)
 			(pin_numbers hide)
@@ -1910,6 +2071,16 @@
 	)
 	(wire
 		(pts
+			(xy 118.11 119.38) (xy 121.92 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a4463a5-9145-483d-95c5-8a2d47801fa1")
+	)
+	(wire
+		(pts
 			(xy 121.92 76.2) (xy 121.92 81.28)
 		)
 		(stroke
@@ -2000,6 +2171,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 114.3) (xy 114.3 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73e860ca-65c6-47ba-928e-0e746c2ccc86")
+	)
+	(wire
+		(pts
 			(xy 172.72 86.36) (xy 172.72 93.98)
 		)
 		(stroke
@@ -2070,6 +2251,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 128.27) (xy 147.32 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a782c212-9663-4248-bf9a-8f6d0286095f")
+	)
+	(wire
+		(pts
 			(xy 147.32 76.2) (xy 147.32 81.28)
 		)
 		(stroke
@@ -2087,6 +2278,16 @@
 			(type default)
 		)
 		(uuid "b482d02d-a2dd-49ae-affd-77fd2f8aa137")
+	)
+	(wire
+		(pts
+			(xy 114.3 123.19) (xy 114.3 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bcfbd045-8349-468a-ba3b-afa4c97f7b95")
 	)
 	(wire
 		(pts
@@ -2200,6 +2401,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 115.57) (xy 114.3 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4d724a0-6cd6-4371-a6f3-cca5b817d8e5")
+	)
+	(wire
+		(pts
 			(xy 134.62 119.38) (xy 134.62 116.84)
 		)
 		(stroke
@@ -2217,16 +2428,6 @@
 			(type default)
 		)
 		(uuid "f1adbb52-6dce-40c4-845a-6c4ab8a11106")
-	)
-	(wire
-		(pts
-			(xy 109.22 119.38) (xy 121.92 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f261bcb2-01e1-48af-b63d-33f6d7377554")
 	)
 	(wire
 		(pts
@@ -2271,7 +2472,7 @@
 		(uuid "bae95692-9e3a-4ad9-a9ce-5c8ca37f2e65")
 	)
 	(label "amp_in"
-		(at 109.22 119.38 0)
+		(at 101.6 114.3 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2755,6 +2956,97 @@
 			(project "fsd-amp"
 				(path "/c6324701-a04d-49c0-9990-add1f54dd7f2"
 					(reference "#PWR01006")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Potentiometer")
+		(at 114.3 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4dd76c5d-8e35-41f2-a5dc-76a87eb14a6d")
+		(property "Reference" "RV1001"
+			(at 111.76 118.1099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "20k"
+			(at 111.76 120.6499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.3 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-reichelt.de/documents/datenblatt/B300/3386_ENG_TDS.pdf"
+			(at 114.3 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Potentiometer"
+			(at 114.3 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VLNK" "https://www.reichelt.de/praezisionspotentiometer-trimmer-liegend-20-kohm-9-5-mm-76-10-20k-p3495.html?&trstct=pos_0&nbc=1"
+			(at 114.3 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VPN" "76-10 20K"
+			(at 114.3 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "ed621415-f8a5-444c-a62a-c145316cc449")
+		)
+		(pin "1"
+			(uuid "8ccca76c-a758-47a8-9c73-d900fd5ed4f1")
+		)
+		(pin "2"
+			(uuid "2a98ffe7-571e-4db5-9a4f-1cbb55141bb8")
+		)
+		(instances
+			(project "fsd-amp"
+				(path "/c6324701-a04d-49c0-9990-add1f54dd7f2"
+					(reference "RV1001")
 					(unit 1)
 				)
 			)
