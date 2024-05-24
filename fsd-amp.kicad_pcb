@@ -90,7 +90,7 @@
 	(net 8 "Net-(D1001-A)")
 	(net 9 "Net-(D1002-K)")
 	(net 10 "/amp_in")
-	(footprint "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
+	(footprint "fp:CP_Radial_D10.0mm_P5.00mm"
 		(layer "F.Cu")
 		(uuid "08046916-928e-4f24-b7b2-301edd4b2014")
 		(at 142.044646 102.02)
@@ -118,7 +118,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
+		(property "Footprint" "fp:CP_Radial_D10.0mm_P5.00mm"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2201,7 +2201,7 @@
 			)
 		)
 	)
-	(footprint "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical"
+	(footprint "fp:Potentiometer_Bourns_3296W_Vertical"
 		(layer "F.Cu")
 		(uuid "0b843171-e02d-415c-8330-86fc6da42c22")
 		(at 146.63 111.02)
@@ -2229,7 +2229,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical"
+		(property "Footprint" "fp:Potentiometer_Bourns_3296W_Vertical"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2503,7 +2503,7 @@
 			)
 		)
 	)
-	(footprint "Capacitor_THT:C_Rect_L7.2mm_W11.0mm_P5.00mm_FKS2_FKP2_MKS2_MKP2"
+	(footprint "fp:C_Rect_L7.2mm_W11.0mm_P5.00mm_FKS2_FKP2_MKS2_MKP2"
 		(layer "F.Cu")
 		(uuid "141f005b-2291-44d4-b72d-5da1c5d28bc2")
 		(at 165.5 114)
@@ -2531,7 +2531,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Rect_L7.2mm_W11.0mm_P5.00mm_FKS2_FKP2_MKS2_MKP2"
+		(property "Footprint" "fp:C_Rect_L7.2mm_W11.0mm_P5.00mm_FKS2_FKP2_MKS2_MKP2"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2761,7 +2761,7 @@
 			)
 		)
 	)
-	(footprint "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
+	(footprint "fp:CP_Radial_D10.0mm_P5.00mm"
 		(layer "F.Cu")
 		(uuid "19e8faac-e21a-42dd-964d-f38a28163b69")
 		(at 142.044646 90.47)
@@ -2789,7 +2789,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
+		(property "Footprint" "fp:CP_Radial_D10.0mm_P5.00mm"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4872,7 +4872,7 @@
 			)
 		)
 	)
-	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+	(footprint "fp:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "27b1bafa-694a-4632-acc8-9279f72d91ca")
 		(at 151.89 113.8)
@@ -4900,7 +4900,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "fp:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5170,7 +5170,7 @@
 			)
 		)
 	)
-	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+	(footprint "fp:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "785d9b0c-ead8-44b1-a493-1d55dbea01ed")
 		(at 151.89 109.75)
@@ -5198,7 +5198,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "fp:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5468,7 +5468,7 @@
 			)
 		)
 	)
-	(footprint "Connector_Audio:Jack_3.5mm_Ledino_KB3SPRS_Horizontal"
+	(footprint "fp:Jack_3.5mm_Ledino_KB3SPRS_Horizontal"
 		(layer "F.Cu")
 		(uuid "aa45c7be-865f-415e-87dc-86b54749f34f")
 		(at 160.64 96.62)
@@ -5496,7 +5496,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Audio:Jack_3.5mm_Ledino_KB3SPRS_Horizontal"
+		(property "Footprint" "fp:Jack_3.5mm_Ledino_KB3SPRS_Horizontal"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5900,7 +5900,7 @@
 			)
 		)
 	)
-	(footprint "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
+	(footprint "fp:SOT-223-3_TabPin2"
 		(layer "F.Cu")
 		(uuid "cc47517a-2b82-4c2a-84d3-bb2beb9c8902")
 		(at 133.58 88.895)
@@ -5928,7 +5928,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
+		(property "Footprint" "fp:SOT-223-3_TabPin2"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6199,7 +6199,7 @@
 			)
 		)
 	)
-	(footprint "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
+	(footprint "fp:SOT-223-3_TabPin2"
 		(layer "F.Cu")
 		(uuid "daa890ab-c90d-40f4-81dc-1f62c54e9945")
 		(at 133.58 97.22)
@@ -6227,7 +6227,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
+		(property "Footprint" "fp:SOT-223-3_TabPin2"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6498,7 +6498,7 @@
 			)
 		)
 	)
-	(footprint "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
+	(footprint "fp:SOT-223-3_TabPin2"
 		(layer "F.Cu")
 		(uuid "dae435b5-ddae-4793-a735-bc9729d007fa")
 		(at 133.58 105.545)
@@ -6526,7 +6526,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
+		(property "Footprint" "fp:SOT-223-3_TabPin2"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6797,7 +6797,7 @@
 			)
 		)
 	)
-	(footprint "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+	(footprint "fp:D_DO-41_SOD81_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "e420bed4-ae83-4d88-b215-762863ca2592")
 		(at 152.19 105.6)
@@ -6825,7 +6825,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+		(property "Footprint" "fp:D_DO-41_SOD81_P10.16mm_Horizontal"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7205,7 +7205,7 @@
 			)
 		)
 	)
-	(footprint "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type101_RT01606HBWC_1x06_P5.08mm_Horizontal"
+	(footprint "fp:TerminalBlock_MetzConnect_Type101_RT01606HBWC_1x06_P5.08mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "e4bcb84a-8026-44c2-8b65-bb2c3b68abc1")
 		(at 132.22 79.67)
@@ -7233,7 +7233,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type101_RT01606HBWC_1x06_P5.08mm_Horizontal"
+		(property "Footprint" "fp:TerminalBlock_MetzConnect_Type101_RT01606HBWC_1x06_P5.08mm_Horizontal"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8075,7 +8075,7 @@
 			)
 		)
 	)
-	(footprint "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+	(footprint "fp:D_DO-41_SOD81_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "e963b597-f7f4-4c89-a06d-7d5e2a9b6623")
 		(at 152.19 101.35)
@@ -8103,7 +8103,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+		(property "Footprint" "fp:D_DO-41_SOD81_P10.16mm_Horizontal"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")

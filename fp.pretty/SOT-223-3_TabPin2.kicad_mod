@@ -1,0 +1,285 @@
+(footprint "SOT-223-3_TabPin2"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "module CMS SOT223 4 pins")
+	(tags "CMS SOT")
+	(property "Reference" "REF**"
+		(at 0 -4.5 0)
+		(layer "F.SilkS")
+		(uuid "0080be83-fca7-450c-af20-489a175ae7c0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "FZT 653 ZET"
+		(at 0 4.5 0)
+		(layer "F.Fab")
+		(uuid "ace0db30-96ed-428d-9853-272c2e0974ed")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "68d4c587-be1f-4e8d-88b6-7a7bf5ebbd83")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" "https://cdn-reichelt.de/documents/datenblatt/A100/FZT653.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cefd900a-06c1-42c9-b5f4-de97adc5fd6b")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "NPN transistor, base/collector/emitter"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "15dcf83d-b5f9-424e-a340-148d8181e3e7")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "VLNK" "https://www.reichelt.de/bipolartransistor-npn-100-v-2-a-2-w-sot-223-fzt-653-zet-p219138.html?&trstct=pos_0&nbc=1"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f7868979-0728-471f-9b4b-7185436de593")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "VPN" "FZT 653 ZET"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8a74b4ed-ef98-42d1-a08f-20c1311676bd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.85 -3.41)
+		(end 1.91 -3.41)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f751cbab-1690-4112-99aa-0253de3daae9")
+	)
+	(fp_line
+		(start -1.85 3.41)
+		(end 1.91 3.41)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ffc4dda6-e2ee-4a35-843c-d7af65fc14c0")
+	)
+	(fp_line
+		(start 1.91 -3.41)
+		(end 1.91 -2.15)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d8c5eb63-acb8-4b2d-8378-7ab02974094d")
+	)
+	(fp_line
+		(start 1.91 3.41)
+		(end 1.91 2.15)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5e0259ed-b3ff-46a1-94c7-4a0d090c2b78")
+	)
+	(fp_poly
+		(pts
+			(xy -3.13 -3.31) (xy -3.37 -3.64) (xy -2.89 -3.64) (xy -3.13 -3.31)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "25140452-ec8a-498a-906c-45812aa45e11")
+	)
+	(fp_line
+		(start -4.4 -3.6)
+		(end -4.4 3.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "220e3970-aa43-4785-a783-a8213ddd5295")
+	)
+	(fp_line
+		(start -4.4 3.6)
+		(end 4.4 3.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0d496814-e224-4e8c-9043-ba54614780fe")
+	)
+	(fp_line
+		(start 4.4 -3.6)
+		(end -4.4 -3.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "98c3c1c1-fad4-4901-a326-4d59c8376c3c")
+	)
+	(fp_line
+		(start 4.4 3.6)
+		(end 4.4 -3.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e852a157-fa5d-4aa3-9d43-c0cb12bb20a0")
+	)
+	(fp_line
+		(start -1.85 -2.35)
+		(end -1.85 3.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "03bdf753-b664-45a5-9819-cd76261e842b")
+	)
+	(fp_line
+		(start -1.85 -2.35)
+		(end -0.85 -3.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "bdba83d0-0831-4fab-a86d-3994f47c2bc8")
+	)
+	(fp_line
+		(start -1.85 3.35)
+		(end 1.85 3.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7cb6c15d-fe54-49d7-aa4c-d77a2d680cbe")
+	)
+	(fp_line
+		(start -0.85 -3.35)
+		(end 1.85 -3.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "369fb88b-70ad-4c53-abfe-817c82881e6d")
+	)
+	(fp_line
+		(start 1.85 -3.35)
+		(end 1.85 3.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6d4739da-be67-4c16-b45c-dd85011378d6")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 90)
+		(layer "F.Fab")
+		(uuid "618b5be2-713b-4dd6-aeeb-a7275a5fef13")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -3.15 -2.3)
+		(size 2 1.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "7c49b3ff-68a0-43f7-a72e-fc6ee0d3d23b")
+	)
+	(pad "2" smd roundrect
+		(at -3.15 0)
+		(size 2 1.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "4d3f1909-4520-4d6d-8e91-f3f2652545d4")
+	)
+	(pad "2" smd roundrect
+		(at 3.15 0)
+		(size 2 3.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "76704c0d-b7d1-455a-a4e8-6779a2c46fbc")
+	)
+	(pad "3" smd roundrect
+		(at -3.15 2.3)
+		(size 2 1.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "8d01143a-84ab-431b-a84e-71d3ba8e9f23")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-223.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
