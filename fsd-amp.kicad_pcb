@@ -8512,4 +8512,15 @@
 			)
 		)
 	)
+	(gr_rect
+		(start 100 50)
+		(end 200 125)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "Edge.Cuts")
+		(uuid "8b733ea1-94ae-4f12-bf84-410cc283d3f2")
+	)
 )
