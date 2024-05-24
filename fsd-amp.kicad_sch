@@ -2229,16 +2229,6 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 111.76) (xy 172.72 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "37e80982-e944-4b35-97fc-2f784fda35f8")
-	)
-	(wire
-		(pts
 			(xy 97.79 171.45) (xy 97.79 173.99)
 		)
 		(stroke
@@ -2336,6 +2326,16 @@
 			(type default)
 		)
 		(uuid "861bdf6d-f07f-43c8-9f54-d922c3f0f462")
+	)
+	(wire
+		(pts
+			(xy 172.72 111.76) (xy 172.72 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8973b43c-c474-4a65-ac8b-39742750ba35")
 	)
 	(wire
 		(pts
@@ -2651,6 +2651,97 @@
 			(justify right bottom)
 		)
 		(uuid "e6e6bd05-4d05-45e4-b312-a8809b540655")
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 172.72 128.27 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "05d93c70-1708-47fb-9439-f1c5c6457615")
+		(property "Netclass" "pwr"
+			(at 172.0215 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 196.85 93.98 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2350fb83-1ac3-412d-986d-2308d584e83a")
+		(property "Netclass" "pwr"
+			(at 197.5485 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 172.72 64.77 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "26eb42e6-b807-48dc-a004-22c69af3e995")
+		(property "Netclass" "pwr"
+			(at 173.4185 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 180.34 93.98 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8166f197-02c8-420b-b08d-f29556adce68")
+		(property "Netclass" "pwr"
+			(at 181.0385 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
 	)
 	(symbol
 		(lib_id "sym:Screw_Terminal_01x06")
