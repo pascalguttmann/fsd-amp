@@ -9,7 +9,7 @@
 	(paper "A4")
 	(title_block
 		(title "FSD-Amp")
-		(date "2024-05-24")
+		(date "2024-05-26")
 		(rev "1.0.0")
 	)
 	(layers
@@ -9575,7 +9575,7 @@
 			)
 		)
 	)
-	(gr_text "FSD - Amp\n240526 v1.0.0"
+	(gr_text "FSD - Amp\n${ISSUE_DATE} ${REVISION}"
 		(at 150 53.26 0)
 		(layer "F.SilkS" knockout)
 		(uuid "7f5d37f5-97c7-4e0f-8032-b7d2bb9dd5b1")
