@@ -27,7 +27,7 @@
 			)
 		)
 	)
-	(property "Footprint" "Connector_Audio:Jack_3.5mm_Ledino_KB3SPRS_Horizontal"
+	(property "Footprint" "Jack_3.5mm_Ledino_KB3SPRS_Horizontal"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -104,26 +104,6 @@
 	)
 	(attr through_hole)
 	(fp_line
-		(start -9.4 -7.7)
-		(end -9.4 -1.5)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "70a1569f-a4bd-441e-ac07-1df4799227ce")
-	)
-	(fp_line
-		(start -9.4 -1.5)
-		(end -5.8 -1.5)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "1a843ec8-9832-434b-9b61-6d4a36311b74")
-	)
-	(fp_line
 		(start -5.8 -10.8)
 		(end 1.95 -10.8)
 		(stroke
@@ -132,16 +112,6 @@
 		)
 		(layer "F.SilkS")
 		(uuid "2622a456-3c80-412c-a331-4b65281146be")
-	)
-	(fp_line
-		(start -5.8 -7.7)
-		(end -9.4 -7.7)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "ec951ecb-0142-4234-a3f4-45fc2e0a4a59")
 	)
 	(fp_line
 		(start -5.8 1)
@@ -272,36 +242,6 @@
 		)
 		(layer "F.CrtYd")
 		(uuid "65cf0619-a5d5-40b7-a6b5-00590fa4fba6")
-	)
-	(fp_line
-		(start -9.3 -7.6)
-		(end -9.3 -1.6)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "a15279d8-167a-4ca9-b1f5-6f9fcde2d0c9")
-	)
-	(fp_line
-		(start -9.3 -7.6)
-		(end -5.7 -7.6)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "11abded8-953d-46dc-aa17-834c84ea212f")
-	)
-	(fp_line
-		(start -9.3 -1.6)
-		(end -5.7 -1.6)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "6e8cc799-8a72-46bf-a788-64438d3e6ead")
 	)
 	(fp_line
 		(start -5.7 -10.7)

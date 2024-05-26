@@ -27,7 +27,7 @@
 			)
 		)
 	)
-	(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
+	(property "Footprint" "SOT-223-3_TabPin2"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -90,46 +90,6 @@
 		)
 	)
 	(attr smd)
-	(fp_line
-		(start -1.85 -3.41)
-		(end 1.91 -3.41)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "f751cbab-1690-4112-99aa-0253de3daae9")
-	)
-	(fp_line
-		(start -1.85 3.41)
-		(end 1.91 3.41)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "ffc4dda6-e2ee-4a35-843c-d7af65fc14c0")
-	)
-	(fp_line
-		(start 1.91 -3.41)
-		(end 1.91 -2.15)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "d8c5eb63-acb8-4b2d-8378-7ab02974094d")
-	)
-	(fp_line
-		(start 1.91 3.41)
-		(end 1.91 2.15)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "5e0259ed-b3ff-46a1-94c7-4a0d090c2b78")
-	)
 	(fp_poly
 		(pts
 			(xy -3.13 -3.31) (xy -3.37 -3.64) (xy -2.89 -3.64) (xy -3.13 -3.31)
