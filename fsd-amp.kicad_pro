@@ -500,7 +500,12 @@
       "GND": "pwr",
       "Net-(Q1002-E)": "pwr"
     },
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "pwr",
+        "pattern": "GND"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
