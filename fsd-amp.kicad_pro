@@ -483,7 +483,7 @@
         "microvia_drill": 0.3,
         "name": "pwr",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgb(255, 0, 255)",
         "track_width": 2.032,
         "via_diameter": 1.0,
         "via_drill": 0.5,

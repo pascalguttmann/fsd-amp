@@ -4617,7 +4617,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "4c4c7dfd-ee51-4f5a-b174-8afe6749a220")
+			(uuid "4c4c7dfd-ee51-4f5a-b174-8afe6749a221")
 		)
 		(instances
 			(project "fsd-amp"
