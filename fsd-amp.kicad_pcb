@@ -70,7 +70,7 @@
 		)
 		(pad_to_mask_clearance 0)
 		(allow_soldermask_bridges_in_footprints no)
-		(grid_origin 100 110)
+		(grid_origin 157.95 100.25)
 		(pcbplotparams
 			(layerselection 0x00010fc_ffffffff)
 			(plot_on_all_layers_selection 0x0000000_00000000)
@@ -9541,6 +9541,83 @@
 		(fill none)
 		(layer "Edge.Cuts")
 		(uuid "8b733ea1-94ae-4f12-bf84-410cc283d3f2")
+	)
+	(gr_text "+9V"
+		(at 178.27 106.6 90)
+		(layer "F.SilkS" knockout)
+		(uuid "074d2b82-ca5e-4c6f-aecb-8c9fc9ed91d4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(gr_text "GND"
+		(at 163.03 106.6 90)
+		(layer "F.SilkS" knockout)
+		(uuid "7265dff7-6216-42bd-9494-0270851d31fd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(gr_text "GND"
+		(at 173.19 106.6 90)
+		(layer "F.SilkS" knockout)
+		(uuid "73d4081d-ab8b-4957-b094-64127eaf30a9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(gr_text "OUT"
+		(at 168.11 106.6 90)
+		(layer "F.SilkS" knockout)
+		(uuid "94024527-076c-47f3-b0cd-55d03578c19a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(gr_text "IN"
+		(at 157.95 106.6 90)
+		(layer "F.SilkS" knockout)
+		(uuid "9934a821-3d48-4bf5-a7e9-7814f8d74a71")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(gr_text "GND"
+		(at 183.35 106.6 90)
+		(layer "F.SilkS" knockout)
+		(uuid "ba9cf123-e5c7-45c7-be2c-effba740e20a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(gr_text "IN"
+		(at 154.14 107.87 0)
+		(layer "F.SilkS" knockout)
+		(uuid "c9ade52f-440b-4376-b23f-c033fa20400e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
 	)
 	(via
 		(at 170.63 76.05)
