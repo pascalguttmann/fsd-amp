@@ -2238,7 +2238,7 @@
 		(descr "Potentiometer, vertical, Bourns 3296W, https://www.bourns.com/pdfs/3296.pdf")
 		(tags "Potentiometer vertical Bourns 3296W")
 		(property "Reference" "RV1001"
-			(at -2.54 -3.66 270)
+			(at -2.54 -3.66 -90)
 			(layer "F.SilkS")
 			(uuid "bad17acc-f992-4257-92ce-b9abd90aaa67")
 			(effects
@@ -2249,7 +2249,7 @@
 			)
 		)
 		(property "Value" "20k"
-			(at -2.54 3.67 270)
+			(at -2.54 3.67 -90)
 			(layer "F.Fab")
 			(uuid "12a2b5c2-4a35-4d63-95cc-83a037b6618a")
 			(effects
@@ -2478,7 +2478,7 @@
 			(uuid "cc49b50a-5f1c-4c9b-be7d-8228d37b8f72")
 		)
 		(fp_text user "${REFERENCE}"
-			(at -3.175 0.005 270)
+			(at -3.175 0.005 -90)
 			(layer "F.Fab")
 			(uuid "fdb2ae7a-e69e-402d-ab8f-8ce9a59db5c5")
 			(effects
@@ -2794,7 +2794,7 @@
 	(footprint "fp:CP_Radial_D10.0mm_P5.00mm"
 		(layer "F.Cu")
 		(uuid "19e8faac-e21a-42dd-964d-f38a28163b69")
-		(at 152.5 67.5 180)
+		(at 152.5 75 180)
 		(descr "CP, Radial series, Radial, pin pitch=5.00mm, , diameter=10mm, Electrolytic Capacitor")
 		(tags "CP Radial series Radial pin pitch 5.00mm  diameter 10mm Electrolytic Capacitor")
 		(property "Reference" "C1001"
@@ -4909,7 +4909,7 @@
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R1002"
-			(at 5.08 -2.37 270)
+			(at 5.08 -2.37 -90)
 			(layer "F.SilkS")
 			(uuid "c228249d-e777-4c94-af4b-e2d1743aa6fc")
 			(effects
@@ -4920,7 +4920,7 @@
 			)
 		)
 		(property "Value" "150"
-			(at 5.08 2.37 270)
+			(at 5.08 2.37 -90)
 			(layer "F.Fab")
 			(uuid "cb1cadf9-9502-4671-98a7-f99edd6f483d")
 			(effects
@@ -5158,7 +5158,7 @@
 			(uuid "f20d3f1d-2e7f-4d6e-a8d9-203e319bbb9c")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 5.08 0 270)
+			(at 5.08 0 -90)
 			(layer "F.Fab")
 			(uuid "158facf4-8899-45c0-abb8-f6d173ca37b5")
 			(effects
@@ -5505,7 +5505,7 @@
 		(descr "https://www.reichelt.de/index.html?ACTION=7&LA=3&OPEN=0&INDEX=0&FILENAME=C160%252FKB3SPRS.pdf")
 		(tags "jack stereo TRS")
 		(property "Reference" "J1004"
-			(at -3.5 2.3 270)
+			(at -3.5 2.3 -90)
 			(layer "F.SilkS")
 			(uuid "beddb74d-3814-4935-8ad6-65c91e4a97a8")
 			(effects
@@ -5516,7 +5516,7 @@
 			)
 		)
 		(property "Value" "AudioJack2_Ground_Switch"
-			(at 2.3 -12.2 270)
+			(at 2.3 -12.2 -90)
 			(layer "F.Fab")
 			(uuid "707069b6-b154-4506-8f17-b08b63f5a94c")
 			(effects
@@ -5858,7 +5858,7 @@
 			(uuid "99c45007-691f-4c92-bb47-e691fa58f2fd")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 2.7 -4.6 270)
+			(at 2.7 -4.6 -90)
 			(layer "F.Fab")
 			(uuid "84d7b904-3159-40a9-92c5-219a58437b52")
 			(effects
@@ -5937,7 +5937,7 @@
 		(descr "module CMS SOT223 4 pins")
 		(tags "CMS SOT")
 		(property "Reference" "Q1001"
-			(at 0 -4.5 270)
+			(at 0 -4.5 -90)
 			(layer "F.SilkS")
 			(uuid "e04da3ab-40c1-482d-9c32-93597b31a0d9")
 			(effects
@@ -5948,7 +5948,7 @@
 			)
 		)
 		(property "Value" "FZT 653 ZET"
-			(at 0 4.5 270)
+			(at 0 4.5 -90)
 			(layer "F.Fab")
 			(uuid "8847b9dd-6a6a-4bb7-9cd6-dc6aa7532663")
 			(effects
@@ -6167,7 +6167,7 @@
 			(uuid "9acdd9a3-5d41-42b9-964b-a06330d79ae9")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "94ca5c6b-cd73-4796-8590-c85e6a992655")
 			(effects
@@ -6232,11 +6232,11 @@
 	(footprint "fp:SOT-223-3_TabPin2"
 		(layer "F.Cu")
 		(uuid "daa890ab-c90d-40f4-81dc-1f62c54e9945")
-		(at 175 67.5 90)
+		(at 175 75 90)
 		(descr "module CMS SOT223 4 pins")
 		(tags "CMS SOT")
 		(property "Reference" "Q1002"
-			(at 0 -4.5 270)
+			(at 0 -4.5 -90)
 			(layer "F.SilkS")
 			(uuid "4bb34b2f-6140-436c-83ad-017691f57949")
 			(effects
@@ -6247,7 +6247,7 @@
 			)
 		)
 		(property "Value" "FZT 653 ZET"
-			(at 0 4.5 270)
+			(at 0 4.5 -90)
 			(layer "F.Fab")
 			(uuid "18a65230-3391-44f8-ba91-856b8a75c94b")
 			(effects
@@ -6466,7 +6466,7 @@
 			(uuid "da804ead-695e-4475-b606-9df4a3aa7490")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "15a29110-16ae-4891-ae28-c9fb92ea8f68")
 			(effects
@@ -6531,11 +6531,11 @@
 	(footprint "fp:SOT-223-3_TabPin2"
 		(layer "F.Cu")
 		(uuid "dae435b5-ddae-4793-a735-bc9729d007fa")
-		(at 125 67.5 90)
+		(at 125 75 90)
 		(descr "module CMS SOT223 4 pins")
 		(tags "CMS SOT")
 		(property "Reference" "Q1003"
-			(at 0 -4.5 270)
+			(at 0 -4.5 -90)
 			(layer "F.SilkS")
 			(uuid "eb094f8c-c3ed-4ae3-bf12-6befb536513d")
 			(effects
@@ -6546,7 +6546,7 @@
 			)
 		)
 		(property "Value" "FZT 753 ZET"
-			(at 0 4.5 270)
+			(at 0 4.5 -90)
 			(layer "F.Fab")
 			(uuid "9c603df1-0955-40cd-9cce-76b889f6e169")
 			(effects
@@ -6765,7 +6765,7 @@
 			(uuid "274c2022-af16-40f0-b415-fb733ece4c9f")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "09fb30b4-2e6f-4397-974a-f7bcaea97cc1")
 			(effects
@@ -6830,11 +6830,11 @@
 	(footprint "fp:D_DO-41_SOD81_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "e420bed4-ae83-4d88-b215-762863ca2592")
-		(at 132.17 70.65)
+		(at 132.17 78.15)
 		(descr "Diode, DO-41_SOD81 series, Axial, Horizontal, pin pitch=10.16mm, , length*diameter=5.2*2.7mm^2, , http://www.diodes.com/_files/packages/DO-41%20(Plastic).pdf")
 		(tags "Diode DO-41_SOD81 series Axial Horizontal pin pitch 10.16mm  length 5.2mm diameter 2.7mm")
 		(property "Reference" "D1002"
-			(at 5.08 -2.47 360)
+			(at 5.08 -2.47 0)
 			(layer "F.SilkS")
 			(uuid "19aae534-1f3d-4396-ac18-82bf34aa7bcd")
 			(effects
@@ -6845,7 +6845,7 @@
 			)
 		)
 		(property "Value" "1N4001"
-			(at 5.08 2.47 360)
+			(at 5.08 2.47 0)
 			(layer "F.Fab")
 			(uuid "54b00a1d-b0f5-4ea2-980c-ef3b83a10f41")
 			(effects
@@ -7169,7 +7169,7 @@
 			(uuid "c8df63e6-85da-40cc-aced-427de4acce9b")
 		)
 		(fp_text user "K"
-			(at 0 -2.1 360)
+			(at 0 -2.1 0)
 			(layer "F.SilkS")
 			(uuid "08e1dc7d-13b9-4fbf-ab61-c4e9189e7250")
 			(effects
@@ -7180,7 +7180,7 @@
 			)
 		)
 		(fp_text user "${REFERENCE}"
-			(at 5.47 0 360)
+			(at 5.47 0 0)
 			(layer "F.Fab")
 			(uuid "0f9d2afa-7200-43b2-975e-7d7973a07349")
 			(effects
@@ -7191,7 +7191,7 @@
 			)
 		)
 		(fp_text user "K"
-			(at 0 -2.1 360)
+			(at 0 -2.1 0)
 			(layer "F.Fab")
 			(uuid "30bb2d38-0333-4fdf-a54d-a1f8b44140a0")
 			(effects
@@ -8108,11 +8108,11 @@
 	(footprint "fp:D_DO-41_SOD81_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "e963b597-f7f4-4c89-a06d-7d5e2a9b6623")
-		(at 157.75 70.65)
+		(at 157.75 78.15)
 		(descr "Diode, DO-41_SOD81 series, Axial, Horizontal, pin pitch=10.16mm, , length*diameter=5.2*2.7mm^2, , http://www.diodes.com/_files/packages/DO-41%20(Plastic).pdf")
 		(tags "Diode DO-41_SOD81 series Axial Horizontal pin pitch 10.16mm  length 5.2mm diameter 2.7mm")
 		(property "Reference" "D1001"
-			(at 5.08 -2.47 360)
+			(at 5.08 -2.47 0)
 			(layer "F.SilkS")
 			(uuid "fd6bc3f6-f658-4f76-9f7b-f6e9507bdfd7")
 			(effects
@@ -8123,7 +8123,7 @@
 			)
 		)
 		(property "Value" "1N4001"
-			(at 5.08 2.47 360)
+			(at 5.08 2.47 0)
 			(layer "F.Fab")
 			(uuid "441fb1e6-b970-49e8-b211-180f1daac1cc")
 			(effects
@@ -8447,7 +8447,7 @@
 			(uuid "98fb94b8-6ad8-4392-b513-0da75ac8cf48")
 		)
 		(fp_text user "K"
-			(at 0 -2.1 360)
+			(at 0 -2.1 0)
 			(layer "F.SilkS")
 			(uuid "6c887250-2334-4f5b-a488-5b5ebf36f1d6")
 			(effects
@@ -8458,7 +8458,7 @@
 			)
 		)
 		(fp_text user "K"
-			(at 0 -2.1 360)
+			(at 0 -2.1 0)
 			(layer "F.Fab")
 			(uuid "4e9d3ff1-7039-42af-a059-31da10702d4e")
 			(effects
@@ -8469,7 +8469,7 @@
 			)
 		)
 		(fp_text user "${REFERENCE}"
-			(at 5.47 0 360)
+			(at 5.47 0 0)
 			(layer "F.Fab")
 			(uuid "5fb029be-b319-461a-b45b-ab4fe987fbbd")
 			(effects
