@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "FSD-Amp")
-		(date "2024-05-24")
-		(rev "1.0.0")
+		(date "2024-06-09")
+		(rev "1.0.1")
 	)
 	(lib_symbols
 		(symbol "sym:+9V"
@@ -4865,7 +4865,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1N4001"
+		(property "Value" "Wire Bridge"
 			(at 149.86 101.5999 90)
 			(effects
 				(font
@@ -4883,7 +4883,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cdn-reichelt.de/documents/datenblatt/A400/1N4001-1N4007_LUNSURE.pdf"
+		(property "Datasheet" ""
 			(at 147.32 100.33 0)
 			(effects
 				(font
@@ -4919,7 +4919,7 @@
 				(hide yes)
 			)
 		)
-		(property "VLNK" "https://www.reichelt.de/gleichrichterdiode-50-v-1-a-do-41-1n-4001-p1723.html?&trstct=pos_0&nbc=1"
+		(property "VLNK" ""
 			(at 147.32 100.33 0)
 			(effects
 				(font
@@ -4928,7 +4928,7 @@
 				(hide yes)
 			)
 		)
-		(property "VPN" "1N 4001"
+		(property "VPN" "Wire Bridge"
 			(at 147.32 100.33 0)
 			(effects
 				(font

@@ -7702,7 +7702,7 @@
 				)
 			)
 		)
-		(property "Value" "1N4001"
+		(property "Value" "Wire Bridge"
 			(at 5.08 2.47 0)
 			(layer "F.Fab")
 			(uuid "3ba9d3d9-28d7-4ca2-b6d0-da476fd97d1e")
@@ -7725,7 +7725,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://cdn-reichelt.de/documents/datenblatt/A400/1N4001-1N4007_LUNSURE.pdf"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7775,7 +7775,7 @@
 				)
 			)
 		)
-		(property "VLNK" "https://www.reichelt.de/gleichrichterdiode-50-v-1-a-do-41-1n-4001-p1723.html?&trstct=pos_0&nbc=1"
+		(property "VLNK" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7788,7 +7788,7 @@
 				)
 			)
 		)
-		(property "VPN" "1N 4001"
+		(property "VPN" "Wire Bridge"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
